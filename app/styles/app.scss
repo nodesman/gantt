@@ -1,0 +1,33 @@
+@import "bootstrap";
+@import "dhtmlxgantt";
+@import "ember-power-select";
+
+
+html, body {
+  margin: 0;
+}
+
+.container {
+  padding: 10px;
+}
+
+.profile-info {
+  float: right;
+  text-align: right;
+}
+
+
+img.profile {
+  border-radius: 100px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gantt-container {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
